@@ -15,7 +15,8 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
+        flexDirection: "column",
+        justifyContent: 'flex-start',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101'
